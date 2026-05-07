@@ -3,6 +3,9 @@ import { View, Text, StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
+import Login from "./src/screens/Login";
+import Pefil from "./src/screens/Perfil";
+
 const Tab = createBottomTabNavigator();
 
 function HomeScreen() {
@@ -38,7 +41,8 @@ export default function App() {
       <Tab.Navigator>
         <Tab.Screen name="Home" component={HomeScreen} />
         <Tab.Screen name="Pets" component={PetsScreen} />
-        <Tab.Screen name="Perfil" component={PerfilScreen} />
+        <Tab.Screen name="Login" component={Login} />
+        <Tab.Screen name="Perfil" component={Pefil} />
       </Tab.Navigator>
     </NavigationContainer>
   );

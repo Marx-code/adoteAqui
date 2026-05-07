@@ -16,7 +16,6 @@
 
 Após `npm run start` você pode escanear o QR code com o aplicativo Expo Go no seu dispositivo ou usar os botões do DevTools para abrir em emuladores.
 
-
 **Estrutura principal do projeto**:
 - **App.js**: ponto de entrada da aplicação.
 - **index.js**: registro da aplicação.
