@@ -1,5 +1,12 @@
 # AdoteAQUI
 
+**Desenvolvedores:**:
+- **Karl Marx de Jesus Moraes - 01812470**:
+- **Cauã Ceni Nascimento de Oliveira - 01796969**:
+- **Francisco Gabriel dos Santos Carvalho Lopes - 1860258**:
+- **Ruan Victor Macedo Silva - 01797552**:
+
+
 **Visão Geral**:
 - **Descrição**: Aplicativo mobile feito com Expo/React Native para cadastro e adoção de pets.
 
