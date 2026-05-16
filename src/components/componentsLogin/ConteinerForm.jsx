@@ -13,6 +13,6 @@ export default function ConteinerForm ({ children }) {
 const styles = StyleSheet.create({
   conteiner: {
     backgroundColor: "white",
-    borderRadius: 25
+    borderRadius: 25,
   },
 });

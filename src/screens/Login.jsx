@@ -8,8 +8,7 @@ import Inputs from '../components/componentsLogin/Inputs';
 import ConteinerForm from '../components/componentsLogin/ConteinerForm';
 import CustomButton from '../components/componentsLogin/CustomButton';
 
-export default function Login () {
-
+export default function Login ({ onLogin }) {
     return (
         <View style={styles.container}>
             <Logo style={styles.child}/>
@@ -25,11 +24,8 @@ export default function Login () {
                   <Text style={styles.password}>Esqueceu seu senha?</Text>
                 </View>
 
-                <CustomButton/>
+                <CustomButton funcao="Entrar" onPress={onLogin} />
               </View>
-
-              
-              
 
             </ConteinerForm>
         </View>

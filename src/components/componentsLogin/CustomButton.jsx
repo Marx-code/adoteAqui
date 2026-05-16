@@ -1,11 +1,11 @@
 import { Button, View, StyleSheet } from "react-native";
 
-export default function CustomButton() {
+export default function CustomButton(props) {
   return (
     <View style={styles.conteiner}>
       <Button
-        title="Entrar"
-        onPress={() => {}}
+        title={props.funcao}
+        onPress={props.onPress ?? (() => {})}
         color="#28335B"
       />
     </View>
