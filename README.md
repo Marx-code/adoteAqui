@@ -24,7 +24,9 @@ Após `npm run start` você pode escanear o QR code com o aplicativo Expo Go no 
 - **src/components/**: componentes reutilizáveis.
 - **src/assets/**: imagens e recursos estáticos.
 
-**Telas:**:
+**Telas:**
+
+
 <img width="399" height="864" alt="image" src="https://github.com/user-attachments/assets/82abc2bd-cc9d-4a2b-b448-bc7a7e26640f" />
 <img width="398" height="865" alt="image" src="https://github.com/user-attachments/assets/062c7e1c-3994-45eb-842a-3af27ad59338" />
 <img width="399" height="864" alt="image" src="https://github.com/user-attachments/assets/a2b21b48-9af9-40cf-aa77-92193dc57635" />
